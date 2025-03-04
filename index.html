@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pobrometro</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <header>
+        <h1>
+            Pobrômetro
+        </h1>
+        <p id="introText">
+            Bem-vindo ao <strong>Pobrômetro</strong>, onde transformamos esses números complexos em algo fácil de entender – ou pelo menos em uma ilusão convincente de que você sabe o que estão fazendo com <em>seu dinheiro!</em>
+        </p>
+    </header>
+    <main>
+        <div>
+            <input type="number" min="0" id="input" placeholder="0">
+            <button id="convertButton" onclick="convert()">
+                Converter!
+            </button>
+        </div>
+        <section id="result">
+            <section class="item" id="skolSection">
+                <img src="images/skol.jpg">
+                <article>
+                <h2>
+                    Skol Latão
+                </h2>
+                <p>
+                    Com <span class="valueSpan">[valor inserido pelo usuário]</span> reais você poderia comprar: <span id="skolSpan">[Quantidade de Skol Latão]</span> Skol Latões, o suficiente pra afogar as mágoas ou pelo menos fingir que a vida tá boa até o próximo boleto.
+                </p>
+                </article>
+            </section>
+            
+            <section class="item" id="unoSection">
+                <img src="images/uno-mille-cinza.webp">
+                <article>
+                <h2>
+                    Uno Mille
+                </h2>
+                <p>
+                    Com <span class="valueSpan">[valor inserido pelo usuário]</span> reais você poderia comprar: <span id="unoSpan">[Quantidade de Uno Mille]</span> Uno Mille(s), porque nada diz 'investimento esperto' como um carro que já viu mais estrada que seus planos de Ano Novo!
+                </p>
+                </article>
+            </section>
+            <section class="item" id="kwidSection">
+                <img src="images/kwid.webp">
+                <article>
+                    <h2>
+                        Kwid
+                    </h2>
+                    <p>
+                        O carrinho que parece brinquedo, mas te leva pro trabalho – ou pelo menos até o próximo posto com preço decente de gasolina! Com <span class="valueSpan">[valor inserido pelo usuário]</span> reais você poderia comprar <span id="kwidSpan">[quantidade de kwid]</span> Kwid(s).
+                    </p>
+                </article>
+            </section>
+            <section class="item" id="picanhaSection">
+                <img src="images/picanha.jpg">
+                <article>
+                    <h2>
+                        Picanha
+                    </h2>
+                    <p>
+                        O rei da churrasqueira que custa mais que seu aluguel, mas vale cada mordida pra impressionar os vizinhos! Com <span class="valueSpan">[valor inserido pelo usuário]</span> reais você poderia comprar <span id="picanhaSpan">[quantidade de quilos de picanha]</span> quilos de picanha.
+                    </p>
+                </article>
+            </section>
+        </section>
+    </main>
+
+    <footer>
+        Créditos<br>
+        Ideia - Papa Hardware 
+        <a href="https://www.youtube.com/@papahardware" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+        <a href="https://www.x.com/papahardware" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+        <a href="https://www.papahardware.com" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i>
+        </a>
+            
+        <br>
+
+        Todo o resto - PEXE 
+        <a href="https://www.youtube.com/@ultimatepexe" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+        <a href="https://www.x.com/ultimatepexe" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+        <a href="https://www.github.com/ultimatepexe" target="_blank"><i class="fa-brands fa-github"></i></a>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
