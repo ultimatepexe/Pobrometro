@@ -74,6 +74,10 @@ main > section {
     transition: all 1s ease;
 }
 
+span {
+    color: green;
+}
+
 footer {
     margin-top: 50px;
 }
