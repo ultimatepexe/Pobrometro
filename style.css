@@ -92,13 +92,13 @@ footer {
         border-radius: 0px;
     }
     section.item > img {
-        border-radius: 10px 0px 200px 0px;
+        border-radius: 10px 0px 100px 0px;
     }
     section#skolSection > img {
-        border-radius: 10px 0px 200px 0px;
+        border-radius: 10px 0px 100px 0px;
     }
     section#picanhaSection > img {
-        border-radius: 10px 0px 200px 0px;
+        border-radius: 10px 0px 100px 0px;
     }
     article {
         padding: 10px;

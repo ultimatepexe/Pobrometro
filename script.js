@@ -1,3 +1,9 @@
+document.getElementById("input").addEventListener("keydown", function(event) {
+    if (event.key === "Enter") {
+        convert()
+    }
+})
+
 const valueSpan = document.querySelectorAll(".valueSpan")
 const skolSpan = document.getElementById("skolSpan")
 const unoSpan = document.getElementById("unoSpan")
