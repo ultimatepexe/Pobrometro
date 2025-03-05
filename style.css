@@ -41,6 +41,7 @@ section.item > article > img, section > article {
 }
 
 section.item > img {
+    height: 200px;
     width: 300px;
     margin-right: 10px;
     border-radius: 10px 0px 0px 10px;
