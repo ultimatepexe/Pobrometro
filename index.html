@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pobrometro</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" media="all">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 <body>
@@ -17,7 +17,7 @@
         </p>
     </header>
     <main>
-        <div>
+        <div id="inputDiv">
             <input type="number" min="0" id="input" placeholder="0">
             <button id="convertButton" onclick="convert()">
                 Converter!
@@ -70,6 +70,23 @@
                 </article>
             </section>
         </section>
+
+
+        <template id="itemTemplate">
+            <section>
+                <img>
+                <article>
+                    <h2>
+
+                    </h2>
+                    <p>
+
+                    </p>
+                </article>
+            </section>
+        </template>
+
+        
     </main>
 
     <footer>

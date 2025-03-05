@@ -16,5 +16,5 @@ function convert() {
     kwidSpan.textContent = String(parseInt(value / 55000))
     picanhaSpan.textContent = String(parseInt(value / 72))
 
-    result.style.display = "block"
+    result.classList.add("show")
 }
