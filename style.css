@@ -80,7 +80,7 @@ span {
 }
 
 footer {
-    margin-top: 50px;
+    margin-top: 40px;
 }
 
 @media screen and (max-width: 600px) {
@@ -103,4 +103,14 @@ footer {
     article {
         padding: 10px;
     }
+}
+
+footer > p {
+    margin-top: 30px;
+    text-align: center;
+    color: rgb(70, 70, 70);
+}
+
+footer > p > a {
+    color: rgb(50, 50, 50);
 }
