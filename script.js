@@ -4,6 +4,8 @@ document.getElementById("input").addEventListener("keydown", function(event) {
     }
 })
 
+const inputDiv = document.getElementById("inputDiv")
+
 const valueSpan = document.querySelectorAll(".valueSpan")
 const skolSpan = document.getElementById("skolSpan")
 const unoSpan = document.getElementById("unoSpan")
@@ -19,11 +21,21 @@ const coroteSpan = document.getElementById("coroteSpan")
 const C51Span = document.getElementById("51Span")
 const picanhaSpan = document.getElementById("picanhaSpan")
 
+const ew = document.createElement("div")
+ew.textContent = "Valor inválido."
+ew.style.color = "red"
 
 const result = document.getElementById("result")
 
 function convert() {
     const value = Number(document.getElementById("input").value)
+
+    if (value < 0) {
+        inputDiv.appendChild(ew)
+        return
+    } else {
+        ew.remove()
+    }
 
     valueSpan.forEach(span => span.textContent = formatNumber(String(value)))
 
