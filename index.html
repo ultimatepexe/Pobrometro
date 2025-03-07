@@ -17,14 +17,17 @@
         <p id="introText">
             Bem-vindo ao <strong>Pobrômetro</strong>, onde transformamos esses números complexos em algo fácil de entender – ou pelo menos em uma ilusão convincente de que você sabe o que estão fazendo com <em>seu dinheiro!</em>
         </p>
+
     </header>
     <main>
+
         <div id="inputDiv">
-            <input type="number" min="0" id="input" placeholder="0">
+            <input type="number" min="0" max="999999999999" maxlength="12" id="input" placeholder="0">
             <button id="convertButton" onclick="convert()">
-                Converter!
+                Converter
             </button>
         </div>
+
         <section id="result">
             <section class="item" id="skolSection">
                 <img src="images/skol.jpg">
