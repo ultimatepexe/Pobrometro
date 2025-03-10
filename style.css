@@ -61,30 +61,18 @@ section.item > h2 {
     margin-left: 5px;
 }
 
-section#skolSection > img {
-    border-radius: 10px 200px 0px 10px;
-}
-
-section#picanhaSection > img {
-    border-radius: 10px 0px 200px 10px;
-}
-
 main > section {
     opacity: 0;
-    transition: all 0.5s ease;
+    transition: opacity 0.5s ease;
 }
 
 .show {
     opacity: 1;
-    transition: all 1s ease;
+    transition: opacity 1s ease;
 }
 
 span {
     color: green;
-}
-
-footer {
-    margin-top: 40px;
 }
 
 @media screen and (max-width: 600px) {
@@ -98,23 +86,48 @@ footer {
     section.item > img {
         border-radius: 10px 0px 100px 0px;
     }
-    section#skolSection > img {
-        border-radius: 10px 0px 100px 0px;
-    }
-    section#picanhaSection > img {
-        border-radius: 10px 0px 100px 0px;
-    }
     article {
         padding: 10px;
     }
 }
 
+footer {
+    margin-top: 40px;
+}
+    /*display: grid;
+    grid-template-columns: 300px 1fr 5px;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+    "credits . donate"
+    "p p p";
+}
+
+#credits {
+    grid-area: credits;
+    margin: 0;
+}
+
+#donateDiv {
+    grid-area: donate;
+    margin: 0;
+}*/
+
 footer > p {
-    margin-top: 30px;
+    margin-top: 15px;
     text-align: center;
     color: rgb(70, 70, 70);
 }
 
 footer > p > a {
     color: rgb(50, 50, 50);
+}
+
+/*.dark > article {
+    transition: none;
+    background-color: black;
+    color: white;
+}*/
+
+#donateButton {
+    cursor: pointer;
 }

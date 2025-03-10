@@ -60,3 +60,27 @@ function convert() {
 function formatNumber(str) {
     return str.replace(/\B(?=(\d{3})+(?!\d))/g, ".");
 }
+/*
+const body = document.querySelector("body")
+const items = document.querySelectorAll(".item")
+const themeButton = document.getElementById("themeButton")
+const sections = document.querySelectorAll("seciton")
+
+function darkMode() {
+    if (body.style.backgroundColor == "rgb(40, 40, 40)") {
+        body.style.backgroundColor = "rgb(230, 230, 230)"
+        items.forEach(article => article.classList.remove("dark"))
+        sections.forEach(sections => sections.style.backgroundColor = "black")
+        body.style.color = "black"
+        themeButton.textContent = "Dark Mode"
+    } else {
+        body.style.backgroundColor = "rgb(40, 40, 40)"
+        items.forEach(article => article.classList.add("dark"))
+        body.style.color = "white"
+        themeButton.textContent = "Light Mode"
+    }
+}*/
+
+function donate() {
+    alert("sourketchup25@walletofsatoshi.com")
+}

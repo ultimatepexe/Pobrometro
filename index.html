@@ -14,6 +14,9 @@
         <h1>
             Pobrômetro
         </h1>
+        <!--<button onclick="darkMode()">
+            Dark Mode
+        </button>-->
         <p id="introText">
             Bem-vindo ao <strong>Pobrômetro</strong>, onde transformamos esses números complexos em algo fácil de entender – ou pelo menos em uma ilusão convincente de que você sabe o que estão fazendo com <em>seu dinheiro!</em>
         </p>
@@ -209,20 +212,28 @@
     </main>
 
     <footer>
-        Créditos<br>
-        Ideia - Papa Hardware 
-        <a href="https://www.youtube.com/@papahardware" target="_blank"><i class="fa-brands fa-youtube"></i></a>
-        <a href="https://www.x.com/papahardware" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
-        <a href="https://discord.gg/papahardware" target="_blank"><i class="fa-brands fa-discord"></i></a>
-        <a href="https://www.papahardware.com" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i>
-        </a>
-            
-        <br>
+        <div id="credits">
+            Créditos<br>
+            Ideia - Papa Hardware 
+            <a href="https://www.youtube.com/@papahardware" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+            <a href="https://www.x.com/papahardware" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="https://discord.gg/papahardware" target="_blank"><i class="fa-brands fa-discord"></i></a>
+            <a href="https://www.papahardware.com" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </a>
+                
+            <br>
 
-        Todo o resto - PEXE 
-        <a href="https://www.youtube.com/@ultimatepexe" target="_blank"><i class="fa-brands fa-youtube"></i></a>
-        <a href="https://www.x.com/ultimatepexe" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
-        <a href="https://www.github.com/ultimatepexe" target="_blank"><i class="fa-brands fa-github"></i></a>
+            Todo o resto - PEXE 
+            <a href="https://www.youtube.com/@ultimatepexe" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+            <a href="https://www.x.com/ultimatepexe" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="https://www.github.com/ultimatepexe" target="_blank"><i class="fa-brands fa-github"></i></a>
+        </div>
+
+        <div id="donateDiv">
+            <button id="donateButton" onclick="donate()">
+                <i class="fa-brands fa-bitcoin"></i>Donate!
+            </button>
+        </div>
 
         <p>
             O <a href="https://pobrometro.pexe.dev"><strong>Pobrômetro</strong></a> pode cometer erros, não confie totalmente nos dados fornecidos no site.
