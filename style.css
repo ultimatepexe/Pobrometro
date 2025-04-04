@@ -131,3 +131,9 @@ footer > p > a {
 #donateButton {
     cursor: pointer;
 }
+
+aside {
+    background-color: yellow;
+    margin: 0;
+    padding-inline: 5px;
+}
