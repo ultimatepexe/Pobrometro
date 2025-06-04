@@ -122,18 +122,22 @@ footer > p > a {
     color: rgb(50, 50, 50);
 }
 
-/*.dark > article {
-    transition: none;
-    background-color: black;
-    color: white;
-}*/
-
 #donateButton {
     cursor: pointer;
 }
 
 aside {
-    background-color: yellow;
+    background-color: red;
     margin: 0;
-    padding-inline: 5px;
+    padding-inline: 10px;
+}
+
+aside > img {
+    width: 50px;
+    display: inline;
+}
+
+aside > p {
+    font-size: x-large;
+    display: inline;
 }
