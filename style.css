@@ -94,23 +94,6 @@ span {
 footer {
     margin-top: 40px;
 }
-    /*display: grid;
-    grid-template-columns: 300px 1fr 5px;
-    grid-template-rows: 1fr 1fr;
-    grid-template-areas: 
-    "credits . donate"
-    "p p p";
-}
-
-#credits {
-    grid-area: credits;
-    margin: 0;
-}
-
-#donateDiv {
-    grid-area: donate;
-    margin: 0;
-}*/
 
 footer > p {
     margin-top: 15px;
